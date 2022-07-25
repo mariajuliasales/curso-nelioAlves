@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Encontre no Google</h1>
+    <form action="https://www.google.com/search">
+      <label for="a">O que deseja pesquisar?</label>
+      <input type="text" id="a" name="q" placeholder="dia, horário ..." required />
+      <input type="email" name="q" id="a">
+      <input type="email" name="q" id="a" autocomplete="off">
+      <input type="number" name="q" id="a" min="5" max="12">
+      <input type="submit" value="pesquisar" />
+    </form>
+  </body>
+  <!--
+  label é acompanhado do input, faz referencia ao input. Para isso o atributo for e id tem que ser iguais.
+  name= q significa query, usado para poder pesquisar no google 
+  requerid faz com que o campo seja obrigatorio, não pesquisa se estiver vazio
+  email é obrigatorio ter um @
+  autocomplete="off" não completa o campo
+  min e max so deixa pesquisar se o numero estiver entre/igual o minimo e/ou o máximo
+-->
+</html>
