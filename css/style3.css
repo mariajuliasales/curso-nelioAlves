@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(250, 236, 244);
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: pink;
+}
+
+section{
+  margin-left: 30px;
+  padding: 0 10px;
+}
+
+h2{
+  margin-bottom: 10px;
+  background-color: plum;
+}
+
+h2 + ul{
+  margin-left: 20px;
+}
+
+ol{
+  margin-left: 30px;
+}
+
+ol ul {
+  margin-left: 30px;
+}
+
+h3 {
+  margin-top: 15px;
+  background-color: plum;
+}
+
+li {
+  margin-top: 5px;
+}
+
+h1, h2, h3 {
+  color: rgb(63, 62, 62);
+}
