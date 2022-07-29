@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(235, 235, 235);
+}
+
+#root {
+  margin-top: 100px;
+}
+
+div {
+  text-align: center;
+  padding: 10px 0;
+}
+
+#root div {
+  margin: 10px 0;
+}
+
+button {
+  
+}
+
+.verde {
+  background-color: green;
+}
+.vermelho {
+  background-color: red;
+}
